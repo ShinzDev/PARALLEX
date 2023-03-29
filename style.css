@@ -65,6 +65,7 @@ body img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  pointer-events: none;
 }
 body #mountain_front {
   z-index: 10;
@@ -78,4 +79,19 @@ body #text {
   white-space: nowrap;
   font-size: 7.5vw;
   z-index: 9;
+}
+body .btn {
+  padding: 8px 30px;
+  border-radius: 30px;
+  background-color: #f8faff;
+  transform: translateY(100px);
+  z-index: 9;
+  display: inline;
+  border: none;
+}
+body a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */
